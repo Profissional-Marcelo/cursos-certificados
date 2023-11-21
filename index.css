@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: blueviolet;
+}
+
+h1 {
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+main {
+    background-color: white;
+    max-width: 850px;
+    height: 80vh;
+    padding: 10px;
+    margin: auto;
+}
+
+
+main > h2 {
+    color: black;
+    font-size: 30px;
+    margin: 50px 0px;
+    cursor: pointer;
+    width: 30%;
+}
+
+main > h2:hover {
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    background-color: rgb(90, 74, 136);
+}
+
+main > h2 > span.material-symbols-outlined {
+    color: lightgray;
+    font-size: 40px;
+    position: relative;
+    top: 8px;
+    
+}
+
+main > div.certificados {
+    display: none;
+}
